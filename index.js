@@ -1,11 +1,11 @@
 'use strict'
 
-var curry2 = require('curry2')
-var dotted = require('brackets2dots')
-var splits = require('dotsplit.js')
+import curry2 from 'curry2';
+import dotted from 'brackets2dots';
+import splits from 'dotsplit.js';
 var string = Object.prototype.toString
 
-module.exports = curry2(selectn)
+export default curry2(selectn);
 
 /**
  * Curried property accessor function that resolves deeply-nested object properties via dot/bracket-notation
