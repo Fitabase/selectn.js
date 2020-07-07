@@ -4,14 +4,15 @@
  * imports.
  */
 
-var test = require('tape-catch')
+import test from 'tape-catch';
 
 /*!
  * imports (local).
  */
 
-var selectn = require('./')
-var fixture = require('./test.fixture')
+import selectn from './';
+
+import fixture from './test.fixture';
 
 /*!
  * fixtures.
